@@ -3,7 +3,7 @@ entries:
   newrelic-private-minion:
   - apiVersion: v1
     appVersion: 2.2.1
-    created: 2019-06-14T10:52:30.248107-07:00
+    created: "2019-10-29T17:01:15.168231-07:00"
     description: A Helm chart for Kubernetes
     digest: 972a28423a62e1160d32341e6509231680becb9f613b89c0d2bfa11da946b0ce
     home: https://github.com/sstarcher/newrelic-private-minion
@@ -21,7 +21,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 2.1.9
-    created: 2019-06-14T10:52:30.245615-07:00
+    created: "2019-10-29T17:01:15.165618-07:00"
     description: A Helm chart for Kubernetes
     digest: 19639d544894a701fa2734b0ff3ce00844201e18da8a09af8ca2aa8a8ffff504
     home: https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/private-locations/install-containerized-private-minions-cpms
@@ -37,4 +37,14 @@ entries:
     urls:
     - newrelic-private-minion-0.1.0.tgz
     version: 0.1.0
-generated: 2019-06-14T10:52:30.164486-07:00
+  probot:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-10-29T17:01:15.168873-07:00"
+    description: Runs probot
+    digest: 6d50486d36fc4aca477a1af16ff49edf437ead64747d02a7160f4c330e41899a
+    name: probot
+    urls:
+    - probot-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-10-29T17:01:15.164119-07:00"
