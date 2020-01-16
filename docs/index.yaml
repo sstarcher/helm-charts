@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  kube-ebs-tagger:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-01-16T13:41:08.657904-08:00"
+    description: A Helm chart for Kubernetes
+    digest: dcf5c6ff33edf9b02253686d6dfaf249836639fd3cd3264059df26d45eea91a5
+    name: kube-ebs-tagger
+    type: application
+    urls:
+    - kube-ebs-tagger-0.1.0.tgz
+    version: 0.1.0
   newrelic-private-minion:
   - apiVersion: v1
     appVersion: 2.2.1
-    created: "2020-01-16T13:38:44.087017-08:00"
+    created: "2020-01-16T13:41:08.660321-08:00"
     description: A Helm chart for Kubernetes
     digest: 972a28423a62e1160d32341e6509231680becb9f613b89c0d2bfa11da946b0ce
     home: https://github.com/sstarcher/newrelic-private-minion
@@ -21,7 +32,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 2.1.9
-    created: "2020-01-16T13:38:44.084605-08:00"
+    created: "2020-01-16T13:41:08.658902-08:00"
     description: A Helm chart for Kubernetes
     digest: 19639d544894a701fa2734b0ff3ce00844201e18da8a09af8ca2aa8a8ffff504
     home: https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/private-locations/install-containerized-private-minions-cpms
@@ -40,11 +51,11 @@ entries:
   probot:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-16T13:38:44.092441-08:00"
+    created: "2020-01-16T13:41:08.660844-08:00"
     description: Runs probot
     digest: 6d50486d36fc4aca477a1af16ff49edf437ead64747d02a7160f4c330e41899a
     name: probot
     urls:
     - probot-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-16T13:38:44.081291-08:00"
+generated: "2020-01-16T13:41:08.651286-08:00"
