@@ -3,23 +3,6 @@ entries:
   helm-exporter:
   - apiVersion: v2
     appVersion: 0.4.3
-    created: "2020-01-22T10:19:11.740255-08:00"
-    description: Exporter for helm metrics
-    digest: fbd7e4c34219023dacc1e178852eb9eff4bbea2c30a2096a4af0212b97daf1c8
-    home: https://github.com/sstarcher/helm-exporter
-    maintainers:
-    - email: shane.starcher@gmail.com
-      name: sstarcher
-      url: https://shanestarcher.com
-    name: helm-exporter
-    sources:
-    - https://github.com/sstarcher/helm-exporter
-    type: application
-    urls:
-    - derp.tgz
-    version: 0.4.3
-  - apiVersion: v2
-    appVersion: 0.4.3
     created: "2020-01-22T10:19:11.741693-08:00"
     description: Exporter for helm metrics
     digest: fbd7e4c34219023dacc1e178852eb9eff4bbea2c30a2096a4af0212b97daf1c8
