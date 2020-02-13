@@ -3,7 +3,7 @@ entries:
   helm-exporter:
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2020-01-24T09:08:10.254106-08:00"
+    created: "2020-02-13T08:31:58.805147-08:00"
     description: Exporter for helm metrics
     digest: 8a85333bc9d3b12c3f5a98725820ab54f904dd4d1dfc8673cc910727da7d967d
     home: https://github.com/sstarcher/helm-exporter
@@ -20,7 +20,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.3
-    created: "2020-01-24T09:08:10.253572-08:00"
+    created: "2020-02-13T08:31:58.803624-08:00"
     description: Exporter for helm metrics
     digest: fbd7e4c34219023dacc1e178852eb9eff4bbea2c30a2096a4af0212b97daf1c8
     home: https://github.com/sstarcher/helm-exporter
@@ -38,7 +38,7 @@ entries:
   kube-ebs-tagger:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-01-24T09:08:10.254446-08:00"
+    created: "2020-02-13T08:31:58.806395-08:00"
     description: A Helm chart for Kubernetes
     digest: dcf5c6ff33edf9b02253686d6dfaf249836639fd3cd3264059df26d45eea91a5
     name: kube-ebs-tagger
@@ -49,7 +49,7 @@ entries:
   newrelic-operator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-01-24T09:08:10.255573-08:00"
+    created: "2020-02-13T08:31:58.810489-08:00"
     description: K8S Operator for New Relic Services
     digest: fa1169e293a2b5b6013faebd2595466c421900aca1214373e719a833ba3cb0e6
     name: newrelic-operator
@@ -59,8 +59,26 @@ entries:
     version: 0.1.0+3246348
   newrelic-private-minion:
   - apiVersion: v1
+    appVersion: 2.2.21
+    created: "2020-02-13T08:31:58.816322-08:00"
+    description: A Helm chart for Kubernetes
+    digest: 929c0c4d6be97d92b3519c8925f5f0b4348dae3257967de9db823cc09bbcb278
+    home: https://github.com/sstarcher/newrelic-private-minion
+    icon: https://newrelic.com/assets/newrelic/source/NewRelic-logo-square.svg
+    keywords:
+    - synthetic
+    - newrelic
+    - monitoring
+    maintainers:
+    - email: shanestarcher@gmail.com
+      name: sstarcher
+    name: newrelic-private-minion
+    urls:
+    - newrelic-private-minion-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
     appVersion: 2.2.1
-    created: "2020-01-24T09:08:10.257272-08:00"
+    created: "2020-02-13T08:31:58.814811-08:00"
     description: A Helm chart for Kubernetes
     digest: 972a28423a62e1160d32341e6509231680becb9f613b89c0d2bfa11da946b0ce
     home: https://github.com/sstarcher/newrelic-private-minion
@@ -78,7 +96,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 2.1.9
-    created: "2020-01-24T09:08:10.255958-08:00"
+    created: "2020-02-13T08:31:58.811982-08:00"
     description: A Helm chart for Kubernetes
     digest: 19639d544894a701fa2734b0ff3ce00844201e18da8a09af8ca2aa8a8ffff504
     home: https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/private-locations/install-containerized-private-minions-cpms
@@ -97,11 +115,11 @@ entries:
   probot:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-24T09:08:10.257759-08:00"
+    created: "2020-02-13T08:31:58.817934-08:00"
     description: Runs probot
     digest: 6d50486d36fc4aca477a1af16ff49edf437ead64747d02a7160f4c330e41899a
     name: probot
     urls:
     - probot-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-24T09:08:10.25291-08:00"
+generated: "2020-02-13T08:31:58.801644-08:00"
