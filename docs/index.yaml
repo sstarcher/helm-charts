@@ -3,7 +3,7 @@ entries:
   helm-exporter:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-03-12T15:00:53.939282-07:00"
+    created: "2020-03-12T15:32:42.621317-07:00"
     description: Exporter for helm metrics
     digest: 8a36ce95b736cea89b5bfac28dae189abf832176c04506635b34b0ef355d789c
     home: https://github.com/sstarcher/helm-exporter
@@ -20,7 +20,7 @@ entries:
     version: 0.5.1+70b2135
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2020-03-12T15:00:53.936503-07:00"
+    created: "2020-03-12T15:32:42.618274-07:00"
     description: Exporter for helm metrics
     digest: 8a85333bc9d3b12c3f5a98725820ab54f904dd4d1dfc8673cc910727da7d967d
     home: https://github.com/sstarcher/helm-exporter
@@ -37,7 +37,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.3
-    created: "2020-03-12T15:00:53.93492-07:00"
+    created: "2020-03-12T15:32:42.616951-07:00"
     description: Exporter for helm metrics
     digest: fbd7e4c34219023dacc1e178852eb9eff4bbea2c30a2096a4af0212b97daf1c8
     home: https://github.com/sstarcher/helm-exporter
@@ -55,7 +55,7 @@ entries:
   kube-ebs-tagger:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-03-12T15:00:53.940659-07:00"
+    created: "2020-03-12T15:32:42.622768-07:00"
     description: A Helm chart for Kubernetes
     digest: dcf5c6ff33edf9b02253686d6dfaf249836639fd3cd3264059df26d45eea91a5
     name: kube-ebs-tagger
@@ -65,8 +65,18 @@ entries:
     version: 0.1.0
   newrelic-operator:
   - apiVersion: v2
+    appVersion: 0.2.1
+    created: "2020-03-12T15:32:42.628303-07:00"
+    description: K8S Operator for New Relic Services
+    digest: 33126ea9134c969ad09de0a38bf3044ad9d7621bc5d82c567758c1dae5ab2498
+    name: newrelic-operator
+    type: application
+    urls:
+    - newrelic-operator-0.2.1+b1097c1.tgz
+    version: 0.2.1+b1097c1
+  - apiVersion: v2
     appVersion: 0.2.0
-    created: "2020-03-12T15:00:53.944458-07:00"
+    created: "2020-03-12T15:32:42.627066-07:00"
     description: K8S Operator for New Relic Services
     digest: ec8d4a2d1bd20b123be7590eeda4583894f84cfa6d64181f5c0184e130724cfa
     name: newrelic-operator
@@ -76,7 +86,7 @@ entries:
     version: 0.2.0+bf0dd12
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2020-03-12T15:00:53.943469-07:00"
+    created: "2020-03-12T15:32:42.625826-07:00"
     description: K8S Operator for New Relic Services
     digest: 0865612bae872ecb5c1394d0585112c043dcea8b725a71874fbba5e441e6e6e0
     name: newrelic-operator
@@ -86,7 +96,7 @@ entries:
     version: 0.1.1+80809b9
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2020-03-12T15:00:53.941961-07:00"
+    created: "2020-03-12T15:32:42.624301-07:00"
     description: K8S Operator for New Relic Services
     digest: fa1169e293a2b5b6013faebd2595466c421900aca1214373e719a833ba3cb0e6
     name: newrelic-operator
@@ -97,7 +107,7 @@ entries:
   newrelic-private-minion:
   - apiVersion: v1
     appVersion: 2.2.21
-    created: "2020-03-12T15:00:53.955614-07:00"
+    created: "2020-03-12T15:32:42.635406-07:00"
     description: A Helm chart for Kubernetes
     digest: 929c0c4d6be97d92b3519c8925f5f0b4348dae3257967de9db823cc09bbcb278
     home: https://github.com/sstarcher/newrelic-private-minion
@@ -115,7 +125,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 2.2.1
-    created: "2020-03-12T15:00:53.948832-07:00"
+    created: "2020-03-12T15:32:42.632493-07:00"
     description: A Helm chart for Kubernetes
     digest: 972a28423a62e1160d32341e6509231680becb9f613b89c0d2bfa11da946b0ce
     home: https://github.com/sstarcher/newrelic-private-minion
@@ -133,7 +143,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 2.1.9
-    created: "2020-03-12T15:00:53.945787-07:00"
+    created: "2020-03-12T15:32:42.628997-07:00"
     description: A Helm chart for Kubernetes
     digest: 19639d544894a701fa2734b0ff3ce00844201e18da8a09af8ca2aa8a8ffff504
     home: https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/private-locations/install-containerized-private-minions-cpms
@@ -152,11 +162,11 @@ entries:
   probot:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-03-12T15:00:53.958009-07:00"
+    created: "2020-03-12T15:32:42.637032-07:00"
     description: Runs probot
     digest: 6d50486d36fc4aca477a1af16ff49edf437ead64747d02a7160f4c330e41899a
     name: probot
     urls:
     - probot-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-12T15:00:53.93294-07:00"
+generated: "2020-03-12T15:32:42.613538-07:00"
