@@ -3,8 +3,10 @@ set -euo pipefail
 
 CHART_PATH=${1:-helm}
 INDEX_PATH=${2:-"helm-charts/docs"}
+HELM_RELEASE=${HELM_RELEASE:-"master"}
+
 if ! hash helm-release 2>/dev/null; then
-    go get github.com/sstarcher/helm-release@master
+    go get "github.com/sstarcher/helm-release@${HELM_RELEASE}"
 fi
 
 helm-release "${CHART_PATH}"
