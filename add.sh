@@ -10,12 +10,12 @@ if ! hash helm-release 2>/dev/null; then
 fi
 
 helm-release "${CHART_PATH}"
-helm package "${CHART_PATH}/" -d "${INDEX_PATH}/docs"
+helm package "${CHART_PATH}/" -d "${INDEX_PATH}"
 helm repo index "${INDEX_PATH}"
 cd "${INDEX_PATH}"
 
 git config --local user.email "action@github.com"
 git config --local user.name "GitHub Action"
-git add docs
+git add *.tgz
 git add index.yaml
 git commit -m "add chart for ${GITHUB_REPOSITORY:-""}"
