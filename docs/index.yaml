@@ -3,7 +3,7 @@ entries:
   ecr-cleaner:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2021-04-03T15:02:30.769137828Z"
+    created: "2021-08-03T12:44:53.451707818Z"
     description: Job to Clean ECR Images
     digest: f23303845e0b0242c71235fb54221c42d4bf969e5a3121f1a56f626221320c5b
     name: ecr-cleaner
@@ -13,7 +13,7 @@ entries:
     version: 0.1.2+2e2ae03
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2021-04-03T15:02:30.768695911Z"
+    created: "2021-08-03T12:44:53.451332412Z"
     description: Job to Clean ECR Images
     digest: c57ede777a3c34cf947e47938964fbb804655f6490401406dda5c91c2ec483d4
     name: ecr-cleaner
@@ -23,8 +23,25 @@ entries:
     version: 0.1.1+d13a1ab
   helm-exporter:
   - apiVersion: v2
+    appVersion: 0.9.0
+    created: "2021-08-03T12:44:53.467008343Z"
+    description: Exporter for helm metrics
+    digest: cbfce56279127dab7cda9ad4b39642754ae990ddbf5b914dffdd719efd128e88
+    home: https://github.com/sstarcher/helm-exporter
+    maintainers:
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+      url: https://shanestarcher.com
+    name: helm-exporter
+    sources:
+    - https://github.com/sstarcher/helm-exporter
+    type: application
+    urls:
+    - helm-exporter-0.9.0+5f17a04.tgz
+    version: 0.9.0+5f17a04
+  - apiVersion: v2
     appVersion: 0.7.3
-    created: "2021-04-03T15:02:30.791945599Z"
+    created: "2021-08-03T12:44:53.466378734Z"
     description: Exporter for helm metrics
     digest: dc4672a690f05e3c9e599c20ae5aba1cdeec445cc13a10192ff1b3a3651bc9c4
     home: https://github.com/sstarcher/helm-exporter
@@ -41,7 +58,7 @@ entries:
     version: 0.7.3+0c5ff6f
   - apiVersion: v2
     appVersion: 0.6.2
-    created: "2021-04-03T15:02:30.791205671Z"
+    created: "2021-08-03T12:44:53.465771625Z"
     description: Exporter for helm metrics
     digest: 1931f6d561baf1756f87a1a5cfb69e55d6f4653f92d6752b173cb5dc20a4b424
     home: https://github.com/sstarcher/helm-exporter
@@ -58,7 +75,7 @@ entries:
     version: 0.6.2+5cbe2aa
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2021-04-03T15:02:30.79040794Z"
+    created: "2021-08-03T12:44:53.465138315Z"
     description: Exporter for helm metrics
     digest: 511a6a78de7245412a18108db6a1ca10f93792d60c53621d096ad49326b7bee3
     home: https://github.com/sstarcher/helm-exporter
@@ -75,7 +92,7 @@ entries:
     version: 0.6.0+61daf2c
   - apiVersion: v2
     appVersion: 0.5.6
-    created: "2021-04-03T15:02:30.789598909Z"
+    created: "2021-08-03T12:44:53.464492006Z"
     description: Exporter for helm metrics
     digest: 5ba73b395ab460f0963f8231554ce1a4b7fef8c081d8d1404fe15b398078b644
     home: https://github.com/sstarcher/helm-exporter
@@ -92,7 +109,7 @@ entries:
     version: 0.5.6+dec8b02
   - apiVersion: v2
     appVersion: 0.5.5
-    created: "2021-04-03T15:02:30.788878082Z"
+    created: "2021-08-03T12:44:53.463944198Z"
     description: Exporter for helm metrics
     digest: 1687908ed1c5ff3306a80a7b70ebf723019f8eee0647bcb32dd32bde1f83d3cd
     home: https://github.com/sstarcher/helm-exporter
@@ -109,7 +126,7 @@ entries:
     version: 0.5.5+cb6f3a1
   - apiVersion: v2
     appVersion: 0.5.2
-    created: "2021-04-03T15:02:30.787849842Z"
+    created: "2021-08-03T12:44:53.463353189Z"
     description: Exporter for helm metrics
     digest: f9f3020489b9ade26a7f04a41bfa310d17332285b2503618a1bf6fa6b8bf5069
     home: https://github.com/sstarcher/helm-exporter
@@ -126,7 +143,7 @@ entries:
     version: 0.5.2+edccd85
   - apiVersion: v2
     appVersion: latest
-    created: "2021-04-03T15:02:30.78699981Z"
+    created: "2021-08-03T12:44:53.453330842Z"
     description: Exporter for helm metrics
     digest: 8a36ce95b736cea89b5bfac28dae189abf832176c04506635b34b0ef355d789c
     home: https://github.com/sstarcher/helm-exporter
@@ -143,7 +160,7 @@ entries:
     version: 0.5.1+70b2135
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2021-04-03T15:02:30.786083375Z"
+    created: "2021-08-03T12:44:53.452829634Z"
     description: Exporter for helm metrics
     digest: 8a85333bc9d3b12c3f5a98725820ab54f904dd4d1dfc8673cc910727da7d967d
     home: https://github.com/sstarcher/helm-exporter
@@ -160,7 +177,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.3
-    created: "2021-04-03T15:02:30.769766352Z"
+    created: "2021-08-03T12:44:53.452300327Z"
     description: Exporter for helm metrics
     digest: fbd7e4c34219023dacc1e178852eb9eff4bbea2c30a2096a4af0212b97daf1c8
     home: https://github.com/sstarcher/helm-exporter
@@ -178,8 +195,9 @@ entries:
   kube-ebs-tagger:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-04-03T15:02:30.792366715Z"
-    description: Tags AWS EBS volumes with lables from the Persistent Volume and Persistent Volume Claim
+    created: "2021-08-03T12:44:53.467336648Z"
+    description: Tags AWS EBS volumes with lables from the Persistent Volume and Persistent
+      Volume Claim
     digest: 0257493685b514c4b1742dfc80b7624e03d3b399ca0a67b0d8694ffb577ff953
     name: kube-ebs-tagger
     type: application
@@ -189,7 +207,7 @@ entries:
   newrelic-operator:
   - apiVersion: v2
     appVersion: 0.3.4
-    created: "2021-04-03T15:02:30.798366744Z"
+    created: "2021-08-03T12:44:53.484408899Z"
     description: K8S Operator for New Relic Services
     digest: 7fd94cf06365ef265b7bb953fb9cc36ee46297ccc94c5348b3ad7273a12a2fdb
     name: newrelic-operator
@@ -199,7 +217,7 @@ entries:
     version: 0.3.4+f2ca803
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2021-04-03T15:02:30.797763421Z"
+    created: "2021-08-03T12:44:53.471891715Z"
     description: K8S Operator for New Relic Services
     digest: 5ec0455554fc862ec7202cbf509b59062f3e591b76e54bf3c4748012bcb199f0
     name: newrelic-operator
@@ -209,7 +227,7 @@ entries:
     version: 0.3.3+4d43a47
   - apiVersion: v2
     appVersion: 0.3.2
-    created: "2021-04-03T15:02:30.797117196Z"
+    created: "2021-08-03T12:44:53.471366407Z"
     description: K8S Operator for New Relic Services
     digest: 5933d707b633761dc7a7599b9bada5b7029c521b1f8b632ceccfc5051b4a58ab
     name: newrelic-operator
@@ -219,7 +237,7 @@ entries:
     version: 0.3.2+0f31883
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2021-04-03T15:02:30.796500873Z"
+    created: "2021-08-03T12:44:53.470854Z"
     description: K8S Operator for New Relic Services
     digest: f2ed11fbaf8347ab1b877cc917af5a469a28f98d9c2c0ca370b78e1e373d2ad1
     name: newrelic-operator
@@ -229,7 +247,7 @@ entries:
     version: 0.3.1+bfa8780
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-04-03T15:02:30.79589205Z"
+    created: "2021-08-03T12:44:53.469800984Z"
     description: K8S Operator for New Relic Services
     digest: 26050fb12edbd4853c8948054331d83a5b6b7c3eeb26db763cddc9228ca084e5
     name: newrelic-operator
@@ -239,7 +257,7 @@ entries:
     version: 0.3.0+dd73b60
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2021-04-03T15:02:30.794723905Z"
+    created: "2021-08-03T12:44:53.469269076Z"
     description: K8S Operator for New Relic Services
     digest: 33126ea9134c969ad09de0a38bf3044ad9d7621bc5d82c567758c1dae5ab2498
     name: newrelic-operator
@@ -249,7 +267,7 @@ entries:
     version: 0.2.1+b1097c1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-04-03T15:02:30.79407738Z"
+    created: "2021-08-03T12:44:53.468761269Z"
     description: K8S Operator for New Relic Services
     digest: ec8d4a2d1bd20b123be7590eeda4583894f84cfa6d64181f5c0184e130724cfa
     name: newrelic-operator
@@ -259,7 +277,7 @@ entries:
     version: 0.2.0+bf0dd12
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2021-04-03T15:02:30.793451156Z"
+    created: "2021-08-03T12:44:53.468248361Z"
     description: K8S Operator for New Relic Services
     digest: 0865612bae872ecb5c1394d0585112c043dcea8b725a71874fbba5e441e6e6e0
     name: newrelic-operator
@@ -269,7 +287,7 @@ entries:
     version: 0.1.1+80809b9
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-04-03T15:02:30.792887335Z"
+    created: "2021-08-03T12:44:53.467801255Z"
     description: K8S Operator for New Relic Services
     digest: fa1169e293a2b5b6013faebd2595466c421900aca1214373e719a833ba3cb0e6
     name: newrelic-operator
@@ -280,7 +298,7 @@ entries:
   newrelic-private-minion:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2021-04-03T15:02:30.803011321Z"
+    created: "2021-08-03T12:44:53.487748348Z"
     description: A Helm chart for Kubernetes
     digest: 25c0827658a60b7d6c68b11967c270f9478ec35c99210bb35c98a85349f007f0
     home: https://github.com/sstarcher/newrelic-private-minion
@@ -298,7 +316,7 @@ entries:
     version: 0.2.0+f7c018f
   - apiVersion: v1
     appVersion: 2.2.21
-    created: "2021-04-03T15:02:30.802511002Z"
+    created: "2021-08-03T12:44:53.487407743Z"
     description: A Helm chart for Kubernetes
     digest: 929c0c4d6be97d92b3519c8925f5f0b4348dae3257967de9db823cc09bbcb278
     home: https://github.com/sstarcher/newrelic-private-minion
@@ -316,7 +334,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 2.2.1
-    created: "2021-04-03T15:02:30.800269917Z"
+    created: "2021-08-03T12:44:53.486096724Z"
     description: A Helm chart for Kubernetes
     digest: 972a28423a62e1160d32341e6509231680becb9f613b89c0d2bfa11da946b0ce
     home: https://github.com/sstarcher/newrelic-private-minion
@@ -334,7 +352,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 2.1.9
-    created: "2021-04-03T15:02:30.798768759Z"
+    created: "2021-08-03T12:44:53.484826105Z"
     description: A Helm chart for Kubernetes
     digest: 19639d544894a701fa2734b0ff3ce00844201e18da8a09af8ca2aa8a8ffff504
     home: https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/private-locations/install-containerized-private-minions-cpms
@@ -353,7 +371,7 @@ entries:
   probot:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-04-03T15:02:30.804323771Z"
+    created: "2021-08-03T12:44:53.488615661Z"
     description: Runs probot
     digest: 6d50486d36fc4aca477a1af16ff49edf437ead64747d02a7160f4c330e41899a
     name: probot
@@ -362,11 +380,11 @@ entries:
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.0.2
-    created: "2021-04-03T15:02:30.803725649Z"
+    created: "2021-08-03T12:44:53.488240155Z"
     description: Runs probot
     digest: ed73dee8d23ad532fb99b00e58a88b48d4791ccd919ed03e7b18e16de9e1697f
     name: probot
     urls:
     - probot-0.0.2+e5fe5a3.tgz
     version: 0.0.2+e5fe5a3
-generated: "2021-04-03T15:02:30.767966083Z"
+generated: "2021-08-03T12:44:53.450783304Z"
