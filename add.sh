@@ -6,8 +6,7 @@ INDEX_PATH=${2:-"helm-charts/docs"}
 HELM_RELEASE=${HELM_RELEASE:-"master"}
 
 if ! hash helm-release 2>/dev/null; then
-    export GO111MODULE=on
-    go get "github.com/sstarcher/helm-release@${HELM_RELEASE}"
+    go install "github.com/sstarcher/helm-release@${HELM_RELEASE}"
 fi
 
 helm-release "${CHART_PATH}"
