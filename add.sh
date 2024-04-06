@@ -5,8 +5,9 @@ CHART_PATH=${1:-helm}
 INDEX_PATH=${2:-"helm-charts/docs"}
 HELM_RELEASE=${HELM_RELEASE:-"master"}
 
+GOPATH=${GOPATH:-${HOME}/go}
 if ! hash helm-release 2>/dev/null; then
-    go install "github.com/sstarcher/helm-release@${HELM_RELEASE}"
+  go install "github.com/sstarcher/helm-release@${HELM_RELEASE}"
 fi
 
 helm release "${CHART_PATH}"
