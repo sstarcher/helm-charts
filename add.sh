@@ -10,6 +10,9 @@ if ! hash helm-release 2>/dev/null; then
   go install "github.com/sstarcher/helm-release@${HELM_RELEASE}"
 fi
 
+# Add GOPATH/bin to PATH so helm-release can be found
+export PATH="${GOPATH}/bin:${PATH}"
+
 helm release "${CHART_PATH}"
 helm package "${CHART_PATH}/" -d "${INDEX_PATH}"
 helm repo index "${INDEX_PATH}"
